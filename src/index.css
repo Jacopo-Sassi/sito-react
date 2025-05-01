@@ -15,6 +15,9 @@ body {
     padding-left: 2rem;
     padding-right: 1rem;
     background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 .leftSide {
@@ -60,12 +63,69 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.main {
+.hero {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    background-color: aqua;
+    align-items: start;
+    justify-content:start;
+    padding: 22rem;
+    border-radius: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+    overflow: hidden;
 }
 
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url(./calciatore.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.hero-info{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1%;
+    background-color: #0a9d1f;
+    padding: 1%;
+    max-width: 350px;
+    border-radius: 5px;
+    border-color: blanchedalmond;
+    border: solid 1px;
+    text-align: center;
+}
+
+.hero-info-text{
+    font-size: small;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    max-width: 700px;
+    margin-left: -10%;
+    margin-top: -5%;
+}
+
+.hero-title{
+    font-size: 50px;
+}
+
+.hero-img{
+    display: flex;
+    gap: 5%;
+    margin-top: 2%;
+}
+
+.store{
+    width: 200px;
+    background-color: beige;
+    border-radius: 5px;
+}
