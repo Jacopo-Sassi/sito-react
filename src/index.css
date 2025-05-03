@@ -136,5 +136,68 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2%;
-    margin-top: 5%;
+    margin-top: 10%;
+}
+
+.main-card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 3%;
+    background-color: #0a9d1f;
+    padding: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 5px;
+    border-color: blanchedalmond;
+    border: solid 1px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: small;
+    max-height: 50px;
+    margin-top: -2%;
+}
+
+.main-title{
+    max-width: 700px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.main-description-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.main-description-image{
+    width: 600px;
+    height: 500px;
+    margin-left: 16%;
+    border-radius: 15px;
+    border: solid 1px wheat;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.subtitle-main-description{
+    font-size: small;
+    margin: 0%;
+}
+
+.main-description-title{
+    font-size: 40px;
+}
+
+.main-description-inner-text{
+    color: grey;
+    margin-top: -2%;
 }
