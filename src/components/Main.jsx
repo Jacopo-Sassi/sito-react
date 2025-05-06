@@ -25,8 +25,25 @@ function Main() {
               <p className="main-card-text">Performance Metrics</p>
             </div>
           </div>
+          <p className="subtitle-main-description">2. Fast, efficient process</p>
+          <h1 className="main-description-title">Save time and stress</h1>
+          <p className="main-description-inner-text">No more wading through emails, online forms and phone calls, never knowing if you’re  moving forward or just treading water.  RFX puts you in control, and gives you clarity on the next steps.</p>
+          <div className="main-card-container">
+            <div className="main-card-list">
+              <img src="branch.svg" alt="Share" className="mainCard-icon"/>
+              <p className="main-card-text">Streamlined Workflow</p>
+            </div>
+            <div className="main-card-list">
+              <img src="aim.svg" alt="Aim" className="mainCard-icon"/>
+              <p className="main-card-text">Automated Tracking</p>
+            </div>
+            <div className="main-card-list">
+              <img src="laptop.svg" alt="Laptop" className="mainCard-icon"/>
+              <p className="main-card-text">Recruitment Dashboard</p>
+            </div>
+          </div>
         </div>
-        <div className="main-description-img">
+        <div className="main-description-img-wrapper">
           <img src="example.jpg" alt="example" className="main-description-image"/>
         </div>
       </div>

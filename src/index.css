@@ -155,26 +155,33 @@ body {
     white-space: nowrap;
     font-size: small;
     max-height: 50px;
-    margin-top: -2%;
+    margin-top: 10%;
 }
 
 .main-title{
     max-width: 700px;
     text-align: center;
     font-size: 50px;
+    
 }
 
 .main-description {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 18%;
 }
 
 .main-description-text {
     display: flex;
     flex-direction: column;
     max-width: 500px;
+}
+
+.main-description-img-wrapper{
+    position: relative;
+    height: 2000px;
+    flex: 0 0 auto;
 }
 
 .main-description-image{
@@ -184,7 +191,8 @@ body {
     border-radius: 15px;
     border: solid 1px wheat;
     position: sticky;
-    top: 0;
+    margin-top: 20%;
+    top: 15%;
     z-index: 2;
 }
 
@@ -207,15 +215,16 @@ body {
     margin: 3%;
     gap: 2%;
     margin-left: -0%;
+    margin-bottom: 130%;
 }
 
 .main-card-list{
     display: flex;
     align-content: center;
     justify-content: center;
-    gap: 2%;
+    gap: 4%;
     background-color: rgb(88, 88, 88);
-    padding: 1%;
+    padding: 2%;
     padding-top: 0.1%;
     padding-bottom: 0.1%;
     border-radius: 20px;
