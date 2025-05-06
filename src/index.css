@@ -201,3 +201,28 @@ body {
     color: grey;
     margin-top: -2%;
 }
+
+.main-card-container{
+    display: flex;
+    margin: 3%;
+    gap: 2%;
+    margin-left: -0%;
+}
+
+.main-card-list{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 2%;
+    background-color: rgb(88, 88, 88);
+    padding: 1%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    border-radius: 20px;
+    white-space: nowrap;
+    font-size: small;
+}
+
+.mainCard-icon{
+    width: 20px;
+}
