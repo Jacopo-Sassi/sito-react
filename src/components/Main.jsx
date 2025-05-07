@@ -42,11 +42,50 @@ function Main() {
               <p className="main-card-text">Recruitment Dashboard</p>
             </div>
           </div>
+          <p className="subtitle-main-description">3. Honest feedback</p>
+          <h1 className="main-description-title">Know where you stand</h1>
+          <p className="main-description-inner-text">Get personalized recommendations to boost engagement, improve your offer and learn which aspects of your profile resonate the most with the college coaches that matter to you.</p>
+          <div className="main-card-container">
+            <div className="main-card-list">
+              <img src="star.svg" alt="Star" className="mainCard-icon"/>
+              <p className="main-card-text">Engagement Insights</p>
+            </div>
+            <div className="main-card-list">
+              <img src="user.svg" alt="User" className="mainCard-icon"/>
+              <p className="main-card-text">Profile Optimization</p>
+            </div>
+            <div className="main-card-list">
+              <img src="graph.svg" alt="Graph" className="mainCard-icon"/>
+              <p className="main-card-text">Recruitment Metrics</p>
+            </div>
+          </div>
+          <p className="subtitle-main-description">4. Personalised approach</p>
+          <h1 className="main-description-title">Find the right fit for you</h1>
+          <p className="main-description-inner-text">RFX connects you with specific coaches and programs based on your skills and goals, ensuring you’re seen by those most likely to be interested in what you have to offer.</p>
+          <div className="main-card-container-last">
+            <div className="main-card-list">
+              <img src="target.svg" alt="Target" className="mainCard-icon"/>
+              <p className="main-card-text">Targeted Matching</p>
+            </div>
+            <div className="main-card-list">
+              <img src="brain.svg" alt="Brain" className="mainCard-icon"/>
+              <p className="main-card-text-last">Coach Connection Engine</p>
+            </div>
+          </div>
         </div>
         <div className="main-description-img-wrapper">
           <img src="example.jpg" alt="example" className="main-description-image"/>
         </div>
       </div>
+      <div className="article-card">
+        <img src="medal.svg" alt="Medal" className="article-icon"/>
+        <p className="article-card-text">The FSA difference</p>
+      </div>
+      <h1 className="article-title">Maximize your options</h1>
+      <div className="article-description">
+      <p className="article-description-text">Get in front of more coaches. Access more programs. Start more conversations.</p>
+      </div>
+      <button className="btn">Get Started</button>
     </div>
   );
 }

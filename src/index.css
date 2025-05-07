@@ -180,7 +180,7 @@ body {
 
 .main-description-img-wrapper{
     position: relative;
-    height: 2000px;
+    height: 2500px;
     flex: 0 0 auto;
 }
 
@@ -191,7 +191,7 @@ body {
     border-radius: 15px;
     border: solid 1px wheat;
     position: sticky;
-    margin-top: 20%;
+    margin-top: -100%;
     top: 15%;
     z-index: 2;
 }
@@ -234,4 +234,46 @@ body {
 
 .mainCard-icon{
     width: 20px;
+}
+
+.main-card-container-last{
+    display: flex;
+    margin: 3%;
+    gap: 2%;
+    margin-left: -0%;
+    margin-bottom: 80%;
+}
+
+.article-card{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 3%;
+    background-color: #0a9d1f;
+    padding: 1%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    border-radius: 5px;
+    border-color: blanchedalmond;
+    border: solid 1px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: small;
+    max-height: 50px;
+}
+
+.article-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.article-description-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    color: gray;
 }
