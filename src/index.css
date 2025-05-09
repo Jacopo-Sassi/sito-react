@@ -261,6 +261,7 @@ body {
     white-space: nowrap;
     font-size: small;
     max-height: 50px;
+    margin-top: -5%;
 }
 
 .article-description{
@@ -276,4 +277,31 @@ body {
     flex-direction: column;
     max-width: 500px;
     color: gray;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 15%;
+    margin-top: -5%;
+}
+
+.card-grid-item{
+    background-color: #0c0c0c;
+    padding: 10%;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgb(255, 255, 255);
+}
+
+.card-grid-text{
+    font-size: small;
+    color: gray;
+}
+
+.card-grid-image{
+    padding: 2%;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgb(255, 255, 255);
 }

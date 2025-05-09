@@ -86,6 +86,38 @@ function Main() {
       <p className="article-description-text">Get in front of more coaches. Access more programs. Start more conversations.</p>
       </div>
       <button className="btn">Get Started</button>
+      <div className="card-grid">
+        <div className="card-grid-item"> 
+          <img src="eye.svg" alt="eye" className="card-grid-image"/>
+          <h2 className="card-grid-title">Get nationwide exposure</h2>
+          <p className="card-grid-text">Publish your profile to coaches and program directors nationwide in just a few minutes.</p>
+        </div>
+        <div className="card-grid-item"> 
+          <img src="run.svg" alt="run" className="card-grid-image"/>
+          <h2 className="card-grid-title">Make direct connections</h2>
+          <p className="card-grid-text">Connect directly with coaches on the programs best suited to your skills and achivements.</p>
+        </div>
+        <div className="card-grid-item"> 
+          <img src="chip.svg" alt="chip" className="card-grid-image"/>
+          <h2 className="card-grid-title">Learn from instant feedback</h2>
+          <p className="card-grid-text">Get notifications when a coach has expressed interest in your profile, so you know who’s in play.</p>
+        </div>
+        <div className="card-grid-item">
+          <img src="globe.svg" alt="globe" className="card-grid-image"/>
+          <h2 className="card-grid-title">Focus on the right programs</h2>
+          <p className="card-grid-text">Focus in on the programs that matter and tailor your profile to ensure the best chance of success.</p>
+        </div>
+        <div className="card-grid-item">
+          <img src="print.svg" alt="finger print" className="card-grid-image"/>
+          <h2 className="card-grid-title">Level up your profile</h2>
+          <p className="card-grid-text">Get recommendations based on coach feedback to improve your profile and boost interest.</p>
+        </div>
+        <div className="card-grid-item">
+          <img src="atom.svg" alt="atom" className="card-grid-image"/>
+          <h2 className="card-grid-title">Secure the best offer</h2>
+          <p className="card-grid-text">Compare and negotiate offers within the RFX app to get the best deal for your future soccer career.</p>
+        </div>
+      </div>
     </div>
   );
 }
