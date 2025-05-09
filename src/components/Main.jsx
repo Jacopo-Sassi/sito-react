@@ -127,6 +127,7 @@ function Main() {
       <p className="article-description-text">RFX makes life easy for coaches — with a single page view of your key stats, achievements, highlights, skills and career goals.</p>
       </div>
       <button className="btn">Get Started</button>
+      <img src="sketch.jpg" alt="sketch" className="sketch-image"/>
     </div>
   );
 }
