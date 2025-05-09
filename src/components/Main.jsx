@@ -118,6 +118,15 @@ function Main() {
           <p className="card-grid-text">Compare and negotiate offers within the RFX app to get the best deal for your future soccer career.</p>
         </div>
       </div>
+      <div className="article-card">
+        <img src="code.svg" alt="code" className="article-icon"/>
+        <p className="article-card-text">Explore the FSA dashboard</p>
+      </div>
+      <h1 className="article-title">Show your value</h1>
+      <div className="article-description">
+      <p className="article-description-text">RFX makes life easy for coaches — with a single page view of your key stats, achievements, highlights, skills and career goals.</p>
+      </div>
+      <button className="btn">Get Started</button>
     </div>
   );
 }
