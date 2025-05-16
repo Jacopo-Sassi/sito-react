@@ -128,6 +128,20 @@ function Main() {
       </div>
       <button className="btn">Get Started</button>
       <img src="sketch.jpg" alt="sketch" className="sketch-image"/>
+      <div className="scroll-container">
+        <div className="scroll-description">
+          <div className="scrolling-description-card">
+          <img src="code.svg" alt="code" className="article-icon"/>
+          <p className="article-card-text">Explore the FSA dashboard</p>
+          </div>
+          <h1 className="main-description-title scroll-main-description-title">Here’s what our athletes are saying</h1>
+          <p className="main-description-inner-text scroll-main-text">Real athletes. Real stories. Real success. All thanks to FSA.</p>
+          <button className="btn">Get Started</button>
+        </div>
+        <div className="scroll-animation">
+          
+        </div>
+      </div>
     </div>
   );
 }

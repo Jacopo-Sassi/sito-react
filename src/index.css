@@ -6,6 +6,7 @@ body {
     font-family: "Tomorrow", sans-serif;
     background-color: black;
     color: white;
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -313,4 +314,37 @@ body {
     margin-top: 5%;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgb(255, 255, 255);
+}
+
+.scroll-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.scrolling-description-card{
+    display: flex;
+    gap: 3%;
+    background-color: #0a9d1f;
+    padding: 1%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    border-radius: 5px;
+    border-color: blanchedalmond;
+    border: solid 1px;
+    white-space: nowrap;
+    font-size: small;
+    max-width:200px;
+    max-height: 50px;
+    margin-top: -5%;
+}
+
+.scroll-main-description-title{
+    margin-top: 2%;
+    max-width: 500px;
+}
+
+.scroll-main-text{
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
